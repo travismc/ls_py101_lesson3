@@ -46,9 +46,9 @@ print(f"three is: {three}")
 # Example C
 
 def mess_with_vars(one, two, three):
-    one[0] = "two"
-    two[0] = "three"
-    three[0] = "one"
+    one[0] = "two"  # list passed by reference
+    two[0] = "three"  # list passed by reference
+    three[0] = "one"  # list passed by reference
 
 
 one = ["one"]
